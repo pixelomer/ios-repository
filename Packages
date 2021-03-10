@@ -1,0 +1,566 @@
+Package: com.pixelomer.blendercompass
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>=11.0)
+Filename: debs/com.pixelomer.blendercompass_1.0_iphoneos-arm.deb
+Size: 2064
+MD5sum: fa148aefe6e4a89fc6169e060652fe9a
+SHA1: eea30256205b8bb86aa9b2fd99b8b7bc828e5107
+SHA256: 373bdef217df1daa1e88d92d2c88c80986b3ecfaeef45cb0e074edad6b39b25a
+Section: Tweaks
+Description: Makes compass go nuts
+  Turns compass into a fidget spinner.
+Author: pixelomer
+Name: FidgetCompass
+
+Package: com.pixelomer.bnc
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 3332
+Depends: mobilesubstrate, firmware (>=10.0), coreutils
+Filename: debs/com.pixelomer.bnc_1.0_iphoneos-arm.deb
+Size: 983336
+MD5sum: f65995464aa174caecc7b6e1c7f8c3b2
+SHA1: 45e71cdbfa53021e2cc7554a9e4d7b29f2ae8e83
+SHA256: 5ac87615b21d1657b49b10f09f78776c017941d8be8c1f5125547014b1d4f2b2
+Section: Tweaks
+Description: But nobody came.
+  UNDERTALE-themed tweak. Resembles the genocide and post-genocide parts of UNDERTALE.
+  Read the details before installing. Although it is harmless, you might not want this tweak on your device.
+  .
+  Details:
+  - Access to SSH, safe mode, widgets and apps are blocked
+  - Plays some sounds from UNDERTALE's genocide route at 45% volume unless muted and this cannot be changed
+  - The control center will be empty while the tweak is active
+  - Opening a package manager while the tweak is active will block all user input except for the volume buttons.
+  - Opening a package manager will ask the user 3 questions which they can answer with the volume buttons.
+  - Answering "YES" to the last 2 questions will make the tweak uninstall itself and respring.
+  Credits:
+  - UNDERTALE (by Toby Fox) for the font, sounds and the dialogue
+  - pixelomer (me) for putting all of this inside an iOS tweak
+  - ConorTheDev for helping me modify the widgets
+  Requires iOS 10.0 or higher.
+Author: pixelomer
+Name: ButNobodyCame
+
+Package: com.pixelomer.callfavorites
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>=14.0)
+Filename: debs/com.pixelomer.callfavorites_1.0_iphoneos-arm.deb
+Size: 6046
+MD5sum: d881cae2e88ef63139edbe2e74b420a6
+SHA1: 3277fdf3d130f9dccde940ed99167d860e414864
+SHA256: 0479d819136c0c00457accef29cbb14525b4d63af30b50af7eb0f7f8eed0d78c
+Section: Tweaks
+Description: Favorites in the 3D Touch menu for the Phone app
+  iOS 14 completely removed the Phone widget, making it harder to access your favorite contacts. This tweak brings your favorite contacts back to the 3D touch menu.
+  .
+  Requires iOS 14.0 or later.
+  This feature is built into older versions of iOS.
+Author: pixelomer
+Name: CallFavorites
+
+Package: com.pixelomer.cgba4ios
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>=8.0)
+Filename: debs/com.pixelomer.cgba4ios_1.3_iphoneos-arm.deb
+Size: 20272
+MD5sum: 234e65962eb8d6c121087bbd8386ede5
+SHA1: 211b7067278c2a637dfc070270cc047db5e131f3
+SHA256: 1167c739b8136bd7619cafbce0846d214fc3761312b5956fb83896b98f2ed494
+Section: Tweaks
+Description: Corrupt GameBoy games using GBA4iOS
+  Features (all):
+  - Real-time corruption of games: Corrupt games slowly while they are running. Can be activated while the game is running using the menu button. A game can be started with real time corruption enabled by holding the game and pressing "Corrupt in Real Time".
+  .
+  Features (GBC and GB only):
+  - ROM duplication & corruption: Allows you to corrupt the ROM files themselves. The original file will not be corrupted. An exact copy of the ROM will be created with the CGB(X) extension and that will be corrupted.
+  - Savestate corruption: Allows you to corrupt save states of games. This will modify the RAM of the emulated GameBoy. To use, hold a game in the "Load State" menu and press "Load and Corrupt State".
+  .
+  Requires iOS 8.0 or higher. Real-time corruption of GBA games was not tested on 32-bit devices.
+Author: pixelomer
+Name: CGBA4iOS
+
+Package: com.pixelomer.cheathelper
+Version: 0.1-1
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 156
+Depends: mobilesubstrate, firmware (>=6.0)
+Filename: debs/com.pixelomer.cheathelper_0.1-1_iphoneos-arm.deb
+Size: 8220
+MD5sum: c75e165f60770fc31739f06facc8f984
+SHA1: 963b22d58a4c0748b74dba4af54868700a3726a1
+SHA256: 0ffab0175edc1427ae7db2a4c140f98607e89144edcb2673aefe25839489937b
+Section: Tweaks
+Description: Override app preferences easily
+  Allows you to easily override application preferences that are store inside "(AppDataRoot)/Library/Preferences/*.plist"
+  Works by hooking to NSUserDefaults.
+  Requires iOS 6.0 or higher.
+Author: pixelomer
+Name: CheatHelper
+
+Package: com.pixelomer.colorfulgoose
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 200
+Depends: com.pixelomer.mobilegoose (>=1.2)
+Filename: debs/com.pixelomer.colorfulgoose_1.2_iphoneos-arm.deb
+Size: 5296
+MD5sum: e5b0b6ff75fc5c52d1796a5bee7c9d1b
+SHA1: 952dc00d1bc1fea2b7b4d509f3b142d980c890bf
+SHA256: b1e12e1ad5e8b8fe59c263596344b535a149797a84be2f3e5d0f7d579d6e14ed
+Section: Tweaks
+Priority: optional
+Description: Add color to your goose
+Author: pixelomer
+Name: ColorfulGoose
+
+Package: com.pixelomer.cyiometrics
+Version: 0.1.1-1
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 8.0)
+Filename: debs/com.pixelomer.cyiometrics_0.1.1-1_iphoneos-arm.deb
+Size: 5580
+MD5sum: 9ab99e5f868c7f1dcf1b76a9003b0bd5
+SHA1: d3d05c0b139829f24dcaebd2e7995716f97092e2
+SHA256: a1023fbd05cc706fb2bfc69c3a3efe51d9e812c9632dac76206cd2c978962628
+Section: Tweaks
+Description: Basic Cydia protection
+  This is a basic tweak that requires you to enter your password or use TouchID/FaceID before performing operations.
+  Can still be bypassed with safemode and by disabling the tweak.
+  Requires iOS 8 or higher.
+Author: pixelomer
+Name: Cyiometrics
+
+Package: com.pixelomer.dpkglogger
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 604
+Depends: mobilesubstrate, firmware (>=9.0)
+Filename: debs/com.pixelomer.dpkglogger_1.0_iphoneos-arm.deb
+Size: 168340
+MD5sum: 42641f63d856091ccc36af3992c0977f
+SHA1: 4809a2ae558ee6260fa2691f60aa555265f869d6
+SHA256: d69b41344270576858f2f6668754c2c474fb93421de4f59eca33d5e16eb11cce
+Section: Utilities
+Description: Application for viewing package history
+  PkgHistory is a simple application that records your package history once you install it. It records package installations, removals, upgrades and downgrades. When a tweak causes issues on your device, this information can be useful for identifying the problematic tweak.
+  .
+ Requires iOS 9.0 or later.
+ .
+ NOTE: PkgHistory will only show the history for packages that were modified *after* installing PkgHistory. It cannot show packages that were modified before installing PkgHistory.
+ WARNING: Removing PkgHistory will also delete the package history!
+Author: pixelomer
+Name: PkgHistory
+
+Package: com.pixelomer.greed
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 604
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>=6.0), preferenceloader
+Filename: debs/com.pixelomer.greed_1.0.3_iphoneos-arm.deb
+Size: 209906
+MD5sum: 6d973d7e84dd451652823a6ecfc83e69
+SHA1: 6c243e6c5d41bdec247673c8afe4d12875432a04
+SHA256: daaf9220836ccca09d4f890b03311f79a27faed4951cbe6d3d7bd6eccd6f7439
+Section: Tweaks
+Description: Butterflies for your wallpaper
+  Makes your background less boring by adding butterflies.
+  .
+  If you don't like the built-in butterflies, you can add your own by copying your own butterfly bundles into "/Library/ButterflyEffect/Butterflies". Butterflies can be enabled and disabled with the Settings app.
+  .
+  Requires iOS 6.0 or later.
+Author: pixelomer
+Name: ButterflyEffect
+
+Package: com.pixelomer.impostorconfig
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 440
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.2)
+Filename: debs/com.pixelomer.impostorconfig_1.0.1_iphoneos-arm.deb
+Size: 34424
+MD5sum: d31246c63ae10d9ad72d843e1f5aa1da
+SHA1: e828c525c9bda1901a519fd4ec9e9abaff0e73a2
+SHA256: 2aeb0be6daf7e5c1ecf00ef803455f7859306ecaf196acdbaa6becdea90075c3
+Section: Tweaks
+Description: Among Us Configurator
+  Makes it easy to set a custom Among Us server. This custom server will only be used when jailbroken.
+Author: pixelomer
+Name: ImpostorConfig
+
+Package: com.pixelomer.iusearchbtw
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.pixelomer.iusearchbtw_1.0_iphoneos-arm.deb
+Size: 4676
+MD5sum: 1ebe4f4e61fe82fa483261efe6e37c99
+SHA1: 7a09a31a08761ff874da4193789e0ba0a4d95a6b
+SHA256: d532931a5c440abb2bc1eaee9fe20b86b71b3658ce94331c42c03f28b400b909
+Section: Tweaks
+Description: Appends "i use arch btw" to discord messages
+  Appends "i use arch btw" to discord messages
+  i use arch btw
+Author: pixelomer
+Name: i use arch btw
+
+Package: com.pixelomer.joethegoose
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 204
+Depends: com.pixelomer.mobilegoose (>=1.2)
+Filename: debs/com.pixelomer.joethegoose_1.0.1_iphoneos-arm.deb
+Size: 6488
+MD5sum: 8f09a03bf091fe70e2140feed4792208
+SHA1: 3bdaa8cd26add58a6b42b128deaf04d7733b60f6
+SHA256: 2bbf2c2adf7a84fda7363a8e42c306a3628ea158f15ff66f104ed3cbe651fd67
+Section: Tweaks
+Priority: optional
+Description: A name tag for your goose
+Author: pixelomer
+Name: Goose Name Tag
+
+Package: com.pixelomer.keyhelper
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.pixelomer.keyhelper_0.0.3_iphoneos-arm.deb
+Size: 15684
+MD5sum: 2bc0322b18113a0d7f70eba3a3898323
+SHA1: b6f501e746000eeeb79224c4a330e0f2d6b45d1f
+SHA256: be0f5c86d5f69d39fc67a40898252c7bc2243803daaae1244754543d5a8db7f0
+Section: Tweaks
+Description: Helper tweak to find dictionary keys
+  Returns keys for localizable strings instead of the strings themselves. Useful when making LocalInject bundles.
+  Configure in the Settings app.
+Author: pixelomer
+Name: KeyHelper
+
+Package: com.pixelomer.libdarwinnotifcenter
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 196
+Filename: debs/com.pixelomer.libdarwinnotifcenter_0.0.1-1_iphoneos-arm.deb
+Size: 5620
+MD5sum: c7af26a2138ffec6b2dca3eb7241dfe3
+SHA1: e603195c6d1b94c5b7ad10c0da02bbb495eae635
+SHA256: 0795363ad7e0ad40ddc898ffe3ca1773ce624e4412864dc0abcc0881ef9dc527
+Section: System
+Description: Wrapper for Darwin Notification Center
+Tag: role::developer
+Author: pixelomer
+Name: libDarwinNotifCenter
+
+Package: com.pixelomer.magma
+Version: 0.1b1
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Depends: firmware (>=11.0)
+Filename: debs/com.pixelomer.magma_0.1b1_iphoneos-arm.deb
+Size: 209180
+MD5sum: da6a24a37752af216c0f503bb05d4c7d
+SHA1: 4525eef93b7b141356cd7aaff9d924681b4cd97d
+SHA256: 253a44579eec163a819a58282268e1e3acf4c4e2111417378ffb13c86ba4012b
+Section: Utilities
+Description: APT repository browser
+  This is a simple yet powerful APT repository browser. With Magma, you can
+  - Browse any APT repository
+  - Download packages from them
+  - Browse files in downloaded packages
+  - Read manual pages inside the downloaded packages
+  Requires iOS 11.0 or higher. This requirement might be lowered in the later versions.
+  Warning: This application is made specifically for browsing Debian repositories. Although it is still possible to browse tweak repositories, some features may not function as expected.
+Author: pixelomer
+Name: Magma
+
+Package: com.pixelomer.mobilegoose
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 1104
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.pixelomer.mobilegoose_1.3.1_iphoneos-arm.deb
+Size: 636378
+MD5sum: 8ce3a80901ce25676b47d490cf045fa8
+SHA1: b5290f8e6674fe707f1b6651a674395e320587e6
+SHA256: d711d0b285a4bb1d8a8ab7b9683aaba68c021ad7c25a7a853e46fa6706100ee1
+Section: Tweaks
+Description: An annoying goose for your iDevice
+Author: pixelomer
+Name: MobileGoose
+
+Package: com.pixelomer.mobilemeadow
+Version: 0.9.1
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 1748
+Depends: mobilesubstrate, firmware (>=10.0)
+Filename: debs/com.pixelomer.mobilemeadow_0.9.1_iphoneos-arm.deb
+Size: 325032
+MD5sum: 3b9e8bf333b87f8cdb9c8671430bda00
+SHA1: d92ed1259dfeee5c4faba5b8b70e7f6ed0a0890c
+SHA256: 1a3499c324ab5a5ad9d4e1f15526d78902dfe617cbf43cfdb6e41af90dfe64cd
+Section: Tweaks
+Description: Turn your phone into a meadow
+  Turn your phone into a meadow.
+  Add flowers to your apps.
+  Let birds fly on your screen.
+  Receive short and encouraging letters from strangers.
+  Send others your own letters.
+  Welcome to MobileMeadow.
+  .
+  Requires iOS 10.0 or later.
+  NOTE: This tweak may be somewhat unstable on iOS 10.
+Author: pixelomer
+Name: MobileMeadow
+
+Package: com.pixelomer.mobilemeadow
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 608
+Depends: mobilesubstrate, firmware (>=10.0)
+Filename: debs/com.pixelomer.mobilemeadow_1.0_iphoneos-arm.deb
+Size: 52440
+MD5sum: 7cbdace9bdb39aaaa00247e6b269561d
+SHA1: 3045f847cf0446073ff16020db1fa894400a7631
+SHA256: ad295157439b65187aa43e6d255a32f00cde53524634add384d6e30159d682c9
+Section: Tweaks
+Description: Turn your phone into a meadow
+  Turn your phone into a meadow.
+  Add flowers to your apps.
+  Let birds fly on your screen.
+  Welcome to MobileMeadow.
+  .
+  Requires iOS 10.0 or later.
+  NOTE: This tweak may be somewhat unstable on iOS 10. iOS 11 and later is recommended.
+Author: pixelomer
+Name: MobileMeadow
+
+Package: com.pixelomer.moderndepictions
+Version: 0.3-109
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Depends: mobilesubstrate, firmware (>=8.0), com.creaturesurvive.libcscolorpicker, preferenceloader, ws.hbang.common (>= 1.11)
+Filename: debs/com.pixelomer.moderndepictions_0.3-109_iphoneos-arm.deb
+Size: 2399204
+MD5sum: c39290e2f10b8650542e61c454f77b43
+SHA1: 7289029b838b62ed39e079e327be88b94d747db4
+SHA256: 2b2a9fa5cffbdd1ae5e280e4ebac785dbe934f360cbbca9517cd47f3ac781209
+Section: Tweaks
+Description: Sileo-like Depictions for Cydia
+  Allows viewing Sileo depictions within Cydia. Supports iOS 8.0 and higher.
+  WARNING: This is a beta version so expect bugs. If you find any, please report them.
+Author: pixelomer
+Name: ModernDepictions
+
+Package: com.pixelomer.moderndepictions
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Depends: mobilesubstrate, firmware (>=8.0), com.creaturesurvive.libcscolorpicker, preferenceloader, ws.hbang.common (>= 1.11)
+Filename: debs/com.pixelomer.moderndepictions_0.3-110_iphoneos-arm.deb
+Size: 2399600
+MD5sum: e0e736cc57ba89c393af7064aea306e6
+SHA1: cf3913d994179bd835fb04816d493ea1962978ac
+SHA256: 8262bbcbc4aafcf0612d9669678d823261f796e8abe6740768558e0a2fb9eb4c
+Section: Tweaks
+Description: Sileo-like Depictions for Cydia
+  Allows viewing Sileo depictions within Cydia. Supports iOS 8.0 and higher.
+Author: pixelomer
+Name: ModernDepictions
+
+Package: com.pixelomer.nerdmode
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: debs/com.pixelomer.nerdmode_1.0_iphoneos-arm.deb
+Size: 9196
+MD5sum: c00a43412b1b63b76ed60a5c72bd937d
+SHA1: 63094c5d3785e5c175cb7536fe46e4e23ef44686
+SHA256: 31e8619f8d3a61126e47c741fa8a41e7cbf4386c0d33645db5b90dcb0938e5ab
+Section: Tweaks
+Description: A calculator tweak for nerds
+  A calculator tweak for nerds
+  Requires iOS 11.0 or higher.
+Author: pixelomer
+Name: NerdMode
+
+Package: com.pixelomer.notanimpostor
+Version: 1.1.5
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 208
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>=6.0)
+Filename: debs/com.pixelomer.notanimpostor_1.1.5_iphoneos-arm.deb
+Size: 51870
+MD5sum: 33c3b0289467c26f3b001ab73778bb53
+SHA1: 0f9b0a80768375282152fb441051d1070bdfee87
+SHA256: f6a55ab220bc3b0abfb3a90521d3b5fac1817800b4ec2a1212dad26700339a04
+Section: Tweaks
+Description: Among Us crewmates get ejected to your background
+  See fellow crewmates from Among Us games who were falsesly accused and ejected.
+  .
+  Requires iOS 6.0 or later.
+Author: pixelomer
+Name: Not An Impostor
+
+Package: com.pixelomer.obsidian
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 156
+Depends: mobilesubstrate, firmware (>=6.0)
+Filename: debs/com.pixelomer.obsidian_1.1_iphoneos-arm.deb
+Size: 19064
+MD5sum: 55ae6747687aba28c804e10f362b155e
+SHA1: ee0e1cc7fed23bbaa02da5eaa882d6ea4293f242
+SHA256: 94d8243cceedb6a8197c6b5c15db95983eb15d3c78be6db17131ddbfd33fa6b8
+Section: Tweaks
+Description: The universal package list exporter
+  This is a tweak that allows you to export your package list from Sileo, Zebra and Cydia. All you need to do is tapping the share button in the "Installed Packages" section of your package manager.
+Author: pixelomer
+Name: Obsidian
+
+Package: com.pixelomer.regreddit
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 252
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.pixelomer.regreddit_1.0_iphoneos-arm.deb
+Size: 27798
+MD5sum: f108d9da559ff64e2740463a4353890d
+SHA1: c04104bcd8bb4447546b2a5f8685312c16015871
+SHA256: 0bce79c9dc99829409b6023418ae16dfa195273ff9bc6225a0911495d0de8d2f
+Section: Tweaks
+Homepage: https://github.com/pixelomer/Regreddit
+Description: Reddit Comment Deleter
+  Regreddit is an easy-to-use comment deleter for the official Reddit app for iOS.
+  This tweak can be accessed by pressing "Comment Deleter" in the user drawer on the left side of the Reddit app.
+  .
+  No specific version of Reddit is required. This tweak was tested with version 2020.34.0.
+  .
+  This tweak will work on any iOS version higher than iOS 7.0. However, the Reddit app (2020.34.0) itself requires at iOS 12.0 or higher.
+Author: pixelomer
+Name: Regreddit
+
+Package: com.pixelomer.shreddit
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.pixelomer.shreddit_1.0.1_iphoneos-arm.deb
+Size: 5150
+MD5sum: 08311a4359d46b04eaa29b671d80bc19
+SHA1: 5993562860db64c45ba584aaf4376b53527daf43
+SHA256: 2644718d78aeb36361ac846e16e2b94f22e4f313e257b58b6552806ed32bbb8a
+Section: Tweaks
+Description: Localization tweak for Reddit
+  Replaces "Delete" with "Shreddit", "Share" with "Spreddit" and "Reddit Coin" with "Creddit".
+Author: pixelomer
+Name: Shreddit
+
+Package: com.pixelomer.thesmallerthebetter
+Version: 1.0.1-1
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 292
+Depends: mobilesubstrate, applist, preferenceloader
+Conflicts: com.pixelomer.c0vercydia
+Filename: debs/com.pixelomer.thesmallerthebetter_1.0.1-1_iphoneos-arm.deb
+Size: 13140
+MD5sum: e5f6e5dfcfd25da266e99862378819b1
+SHA1: 872c0504a0cf3e44ffae3f11bb67f90fb902c237
+SHA256: 1ef6f8ad3fb4d23d30a3fa35451dbbfa5ede5fca0c94b7ce14e6a78ecd99e7f8
+Section: Tweaks
+Description: Disable large titles in apps
+  This tweak disables large titles for the apps selected from the Preferences bundle.
+  By default, the large titles are disabled in every app excluding the apps selected in the Settings app. If the mode switch is switched on, the tweak disables large titles only in selected apps.
+  Configure the preferences in the Settings app.
+Author: pixelomer
+Name: TheSmallerTheBetter
+
+Package: com.pixelomer.tweakexcluder
+Version: 0.3-2
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 336
+Depends: mobilesubstrate, preferenceloader, firmware (>=11.0)
+Filename: debs/com.pixelomer.tweakexcluder_0.3-2_iphoneos-arm.deb
+Size: 26540
+MD5sum: 7e780dc529fc3bce1b43dd8a7a0b0940
+SHA1: ebf50dc11aaa10221dec2df07cfd94753190522a
+SHA256: d5496ee4bf68a600ada89382a57a963d6e6e4ba086764f0b14de3f924174bbb6
+Section: Tweaks
+Description: Configure tweaks yourself!
+  Features:
+  - You can choose to not load specific tweaks in specific apps.
+  - You can completely disable tweaks in specified apps.
+  Requires iOS 11 or higher. Tested with Electra and unc0ver on iOS 11.3.1 and unc0ver on iOS 12.1.2.
+  Works with both Substrate and Substitute.
+Author: pixelomer
+Name: TweakConfigurator
+
+Package: com.pixelomer.tweakreviews-db
+Version: 0.6.1
+Architecture: iphoneos-arm
+Maintainer: PixelOmer
+Installed-Size: 828
+Depends: mobilesubstrate, firmware (>=8.0)
+Conflicts: com.samgisaninja.tweakcompatible-zebra, bz.jed.tweakcompatible
+Filename: debs/com.pixelomer.tweakreviews-db_0.6.1_iphoneos-arm.deb
+Size: 154804
+MD5sum: 6e40e25909ae4eb759070a08813aa234
+SHA1: 99c852ef0c0e592676018de7f5205a6d9dd31344
+SHA256: 260242db97dd44b1eeae7a2eea687081fccee11b9091bef178c1f9dab8190914
+Section: Tweaks
+Description: Review and rate packages!
+  TweakReviewsDB is a tweak that lets you review packages and mark them as working or broken in seconds! You can use this tweak to share what you think about a package for others to see.
+  This is a direct replacement for tweakCompatible which supports Cydia and Zebra.
+  Requires iOS 8.0 or higher.
+Author: PixelOmer
+Name: TweakReviewsDB
+
+Package: com.pixelomer.werycooltweak
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.pixelomer.werycooltweak_0.0.1_iphoneos-arm.deb
+Size: 5124
+MD5sum: 6995ea06cfed235e81cc5479e083f991
+SHA1: 3d195db3edd4270cf41b8c699000a45cac23933d
+SHA256: 37a3be8af12c71030219b46ba0b65cbda6974198571b0b92ba0a45be5854498a
+Section: Tweaks
+Description: An awesome tweak for YouTube!
+Author: pixelomer
+Name: WeryCoolTweak
+

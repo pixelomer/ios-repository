@@ -1,0 +1,7 @@
+Origin: pixelomer
+Label: pixelomer
+Suite: stable
+Version: 1.0.4
+Codename: ios
+Architectures: iphoneos-arm
+Components: main

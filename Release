@@ -1,0 +1,13 @@
+Origin: pixelomer
+Label: pixelomer
+Suite: stable
+Version: 1.0.4
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+MD5Sum:
+  2ad15e0775fd2c5e6210594bd6e94bb7 21559 Packages
+  2f7122547f00eb37c9f0981e4787c434 6891 Packages.bz2
+SHA256Sum:
+  3d6c489ed6d0706c1f0d81449a023899c456f079488c043e7e7d66ce69f13710 21559 Packages
+  fab5b4d3a8e6316beb5c4812cb5d5a563cac8321e5d88b9116a8a4988b8bc5e1 6891 Packages.bz2
