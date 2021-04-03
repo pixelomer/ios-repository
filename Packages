@@ -529,26 +529,6 @@ Author: pixelomer
 Name: TweakConfigurator
 
 Package: com.pixelomer.tweakreviews-db
-Version: 0.6.1
-Architecture: iphoneos-arm
-Maintainer: PixelOmer
-Installed-Size: 828
-Depends: mobilesubstrate, firmware (>=8.0)
-Conflicts: com.samgisaninja.tweakcompatible-zebra, bz.jed.tweakcompatible
-Filename: debs/com.pixelomer.tweakreviews-db_0.6.1_iphoneos-arm.deb
-Size: 154804
-MD5sum: 6e40e25909ae4eb759070a08813aa234
-SHA1: 99c852ef0c0e592676018de7f5205a6d9dd31344
-SHA256: 260242db97dd44b1eeae7a2eea687081fccee11b9091bef178c1f9dab8190914
-Section: Tweaks
-Description: Review and rate packages!
-  TweakReviewsDB is a tweak that lets you review packages and mark them as working or broken in seconds! You can use this tweak to share what you think about a package for others to see.
-  This is a direct replacement for tweakCompatible which supports Cydia and Zebra.
-  Requires iOS 8.0 or higher.
-Author: PixelOmer
-Name: TweakReviewsDB
-
-Package: com.pixelomer.tweakreviews-db
 Version: 0.7.0
 Architecture: iphoneos-arm
 Maintainer: pixelomer
@@ -560,6 +540,26 @@ Size: 94738
 MD5sum: d2eb6c7ca3daf823ee8919e647d0de97
 SHA1: f85ebcbef6c891ba0390d56980f89e57993f4951
 SHA256: c0dfaecf31051829054448be3c6e62043e35b6bafc41474c82efb52a3128b726
+Section: Tweaks
+Description: Browse package reviews
+  TweakReviewsDB is a tweak that lets you view reviews from other people from multiple different review sources.
+  This is a direct replacement for tweakCompatible that supports Sileo, Cydia, Zebra and Installer 5.
+  Requires iOS 9.0 or higher.
+Author: pixelomer
+Name: TweakReviewsDB
+
+Package: com.pixelomer.tweakreviews-db
+Version: 0.7.1
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 436
+Depends: mobilesubstrate, firmware (>=9.0)
+Conflicts: com.samgisaninja.tweakcompatible-zebra, bz.jed.tweakcompatible
+Filename: debs/com.pixelomer.tweakreviews-db_0.7.1_iphoneos-arm.deb
+Size: 95058
+MD5sum: 8b981389ceca1fc2d2e3d99adf2d9014
+SHA1: e7ff311f189dfa50d58261efa6f2b2b50698ed99
+SHA256: 1aa71c133f40f4f414d56ea9a6828e07f49f8e04ac6e3e265011d3dd4673ac50
 Section: Tweaks
 Description: Browse package reviews
   TweakReviewsDB is a tweak that lets you view reviews from other people from multiple different review sources.
