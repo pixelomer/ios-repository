@@ -529,42 +529,21 @@ Author: pixelomer
 Name: TweakConfigurator
 
 Package: com.pixelomer.tweakreviews-db
-Version: 0.7.0
+Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: pixelomer
-Installed-Size: 436
+Installed-Size: 528
 Depends: mobilesubstrate, firmware (>=9.0)
 Conflicts: com.samgisaninja.tweakcompatible-zebra, bz.jed.tweakcompatible
-Filename: debs/com.pixelomer.tweakreviews-db_0.7.0_iphoneos-arm.deb
-Size: 94738
-MD5sum: d2eb6c7ca3daf823ee8919e647d0de97
-SHA1: f85ebcbef6c891ba0390d56980f89e57993f4951
-SHA256: c0dfaecf31051829054448be3c6e62043e35b6bafc41474c82efb52a3128b726
+Filename: debs/com.pixelomer.tweakreviews-db_1.0_iphoneos-arm.deb
+Size: 111376
+MD5sum: e7edcbf6e1f6ed356a60b7f65e2bd297
+SHA1: 30b8298a8da77dc3dbb92e9deb9d584844935a5a
+SHA256: aef5afa37c813f0342458243d7083472b873c47511a6f0859b18feec211f995e
 Section: Tweaks
-Description: Browse package reviews
-  TweakReviewsDB is a tweak that lets you view reviews from other people from multiple different review sources.
-  This is a direct replacement for tweakCompatible that supports Sileo, Cydia, Zebra and Installer 5.
-  Requires iOS 9.0 or higher.
-Author: pixelomer
-Name: TweakReviewsDB
-
-Package: com.pixelomer.tweakreviews-db
-Version: 0.7.1
-Architecture: iphoneos-arm
-Maintainer: pixelomer
-Installed-Size: 436
-Depends: mobilesubstrate, firmware (>=9.0)
-Conflicts: com.samgisaninja.tweakcompatible-zebra, bz.jed.tweakcompatible
-Filename: debs/com.pixelomer.tweakreviews-db_0.7.1_iphoneos-arm.deb
-Size: 95058
-MD5sum: 8b981389ceca1fc2d2e3d99adf2d9014
-SHA1: e7ff311f189dfa50d58261efa6f2b2b50698ed99
-SHA256: 1aa71c133f40f4f414d56ea9a6828e07f49f8e04ac6e3e265011d3dd4673ac50
-Section: Tweaks
-Description: Browse package reviews
-  TweakReviewsDB is a tweak that lets you view reviews from other people from multiple different review sources.
-  This is a direct replacement for tweakCompatible that supports Sileo, Cydia, Zebra and Installer 5.
-  Requires iOS 9.0 or higher.
+Description: Tweak reviews made easy.
+  Easily read and create reviews about your tweaks with TweakReviewsDB.
+  Works with Sileo, Zebra, Cydia and Installer 5.
 Author: pixelomer
 Name: TweakReviewsDB
 
