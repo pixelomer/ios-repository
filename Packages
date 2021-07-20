@@ -297,16 +297,16 @@ Author: pixelomer
 Name: Magma
 
 Package: com.pixelomer.mobilegoose
-Version: 1.3.1
+Version: 1.3.2
 Architecture: iphoneos-arm
 Maintainer: pixelomer
-Installed-Size: 1104
+Installed-Size: 1096
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.pixelomer.mobilegoose_1.3.1_iphoneos-arm.deb
-Size: 636378
-MD5sum: 8ce3a80901ce25676b47d490cf045fa8
-SHA1: b5290f8e6674fe707f1b6651a674395e320587e6
-SHA256: d711d0b285a4bb1d8a8ab7b9683aaba68c021ad7c25a7a853e46fa6706100ee1
+Filename: debs/com.pixelomer.mobilegoose_1.3.2_iphoneos-arm.deb
+Size: 633072
+MD5sum: ea45e0b6f8c96ca182f6512b39aab364
+SHA1: e962c3260848808178bc95c07992a835f552ea6a
+SHA256: ca4358f0878bcfa702941739563971f500a12226c555e0b9405927a1d64874ec
 Section: Tweaks
 Description: An annoying goose for your iDevice
 Author: pixelomer
