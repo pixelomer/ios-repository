@@ -529,25 +529,6 @@ Author: pixelomer
 Name: TweakConfigurator
 
 Package: com.pixelomer.tweakreviews-db
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: pixelomer
-Installed-Size: 528
-Depends: mobilesubstrate, firmware (>=9.0)
-Conflicts: com.samgisaninja.tweakcompatible-zebra, bz.jed.tweakcompatible
-Filename: debs/com.pixelomer.tweakreviews-db_1.0_iphoneos-arm.deb
-Size: 111376
-MD5sum: e7edcbf6e1f6ed356a60b7f65e2bd297
-SHA1: 30b8298a8da77dc3dbb92e9deb9d584844935a5a
-SHA256: aef5afa37c813f0342458243d7083472b873c47511a6f0859b18feec211f995e
-Section: Tweaks
-Description: Tweak reviews made easy.
-  Easily read and create reviews about your tweaks with TweakReviewsDB.
-  Works with Sileo, Zebra, Cydia and Installer 5.
-Author: pixelomer
-Name: TweakReviewsDB
-
-Package: com.pixelomer.tweakreviews-db
 Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: pixelomer
@@ -559,6 +540,25 @@ Size: 112542
 MD5sum: 52f0bfbe1604eac498975963fe679972
 SHA1: 5be4d57cc53a20f9d37f02e3b233f54ec4ec9d78
 SHA256: b9f2985dda5b2992ef7eea7dff89b831065f15ea9b9868c0f4af4a549c969537
+Section: Tweaks
+Description: Tweak reviews made easy.
+  Easily read and create reviews about your tweaks with TweakReviewsDB.
+  Works with Sileo, Zebra, Cydia and Installer 5.
+Author: pixelomer
+Name: TweakReviewsDB
+
+Package: com.pixelomer.tweakreviews-db
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 528
+Depends: mobilesubstrate, firmware (>=9.0)
+Conflicts: com.samgisaninja.tweakcompatible-zebra, bz.jed.tweakcompatible
+Filename: debs/com.pixelomer.tweakreviews-db_1.1.1_iphoneos-arm.deb
+Size: 112378
+MD5sum: a120ce660dee90336e462af425d72f80
+SHA1: cce231093f82f32d807b5d239a4ba478c4592b2e
+SHA256: 356d48d866b8ba9b1341ca0ed499d8cb28b90cc92b36a6cdb6ce29a990e0f0ff
 Section: Tweaks
 Description: Tweak reviews made easy.
   Easily read and create reviews about your tweaks with TweakReviewsDB.
