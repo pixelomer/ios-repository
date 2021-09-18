@@ -547,6 +547,25 @@ Description: Tweak reviews made easy.
 Author: pixelomer
 Name: TweakReviewsDB
 
+Package: com.pixelomer.tweakreviews-db
+Version: 1.1.6
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 576
+Depends: mobilesubstrate, firmware (>=9.0)
+Conflicts: com.samgisaninja.tweakcompatible-zebra, bz.jed.tweakcompatible
+Filename: debs/com.pixelomer.tweakreviews-db_1.1.6_iphoneos-arm.deb
+Size: 123936
+MD5sum: 9de13980abcca67b52ceb0a7494bc950
+SHA1: cf7a7563893028307e1a9d62fb4cfdeacbaf942c
+SHA256: e5d7124bcd545a38b0800c8bf7dac423699afcd29530cb889d0e76c7355b7d16
+Section: Tweaks
+Description: Tweak reviews made easy.
+  Easily read and create reviews about your tweaks with TweakReviewsDB.
+  Works with Sileo, Zebra, Cydia and Installer 5.
+Author: pixelomer
+Name: TweakReviewsDB
+
 Package: com.pixelomer.werycooltweak
 Version: 0.0.1
 Architecture: iphoneos-arm
