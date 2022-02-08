@@ -6,8 +6,8 @@ Codename: ios
 Architectures: iphoneos-arm
 Components: main
 MD5Sum:
-  2dd7d1d8978fe905b9cd19da14ba3bb0 22078 Packages
-  6439162bfe03a07c9d6133d269e7c745 6966 Packages.bz2
+  6f451308ff7ed31c0c47a5b3f63a3b27 22776 Packages
+  71af9103fbe2846dd863c15654164d3a 7088 Packages.bz2
 SHA256Sum:
-  54a8fb98a8a7600ad31e5f73f756af92fd8c1054300ca41555de5226d3df4783 22078 Packages
-  e71f35f3053c8f6f7f9cd0c7c229c010a25725cf67b11164429043fecbc71bef 6966 Packages.bz2
+  22e5cad3f47d9c2c1aea9d0e5e62ea336b699f6ffbc99d6ab25c03e4a3dc1cfd 22776 Packages
+  54f04803e531744deee7dd329d423893e340387341c7921e22df21da8ad76015 7088 Packages.bz2
