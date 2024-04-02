@@ -126,6 +126,23 @@ Description: Add color to your goose
 Author: pixelomer
 Name: ColorfulGoose
 
+Package: com.pixelomer.colorfulgoose
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: pixelomer
+Installed-Size: 168
+Depends: com.pixelomer.mobilegoose (>=1.2)
+Filename: debs/com.pixelomer.colorfulgoose_1.2_iphoneos-arm64.deb
+Size: 4558
+MD5sum: 71e64f19691140a3113de7de6763241c
+SHA1: ab3914204b7cb07bb1addb2e1bcb462ad88f0a58
+SHA256: 27c0a85d97403872d765c0599c5a78622b79aea54e4faa65d0e7efc425b4f2e9
+Section: Tweaks
+Priority: optional
+Description: Add color to your goose
+Author: pixelomer
+Name: ColorfulGoose
+
 Package: com.pixelomer.cyiometrics
 Version: 0.1.1-1
 Architecture: iphoneos-arm
@@ -240,6 +257,23 @@ Description: A name tag for your goose
 Author: pixelomer
 Name: Goose Name Tag
 
+Package: com.pixelomer.joethegoose
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: pixelomer
+Installed-Size: 172
+Depends: com.pixelomer.mobilegoose (>=1.2)
+Filename: debs/com.pixelomer.joethegoose_1.0.1_iphoneos-arm64.deb
+Size: 5310
+MD5sum: 7652cf32e1ae0619bb56f88b0eeeefad
+SHA1: 174c9674a4df2874aafee7becb0d0ffbf3ee4363
+SHA256: 84e5a4432b654db56e4af8dafb4756ce4569dbdf4f3ffb9aae3f16a5665ffaad
+Section: Tweaks
+Priority: optional
+Description: A name tag for your goose
+Author: pixelomer
+Name: Goose Name Tag
+
 Package: com.pixelomer.keyhelper
 Version: 0.0.3
 Architecture: iphoneos-arm
@@ -307,6 +341,22 @@ Size: 633072
 MD5sum: ea45e0b6f8c96ca182f6512b39aab364
 SHA1: e962c3260848808178bc95c07992a835f552ea6a
 SHA256: ca4358f0878bcfa702941739563971f500a12226c555e0b9405927a1d64874ec
+Section: Tweaks
+Description: An annoying goose for your iDevice
+Author: pixelomer
+Name: MobileGoose
+
+Package: com.pixelomer.mobilegoose
+Version: 1.3.3
+Architecture: iphoneos-arm64
+Maintainer: pixelomer
+Installed-Size: 1000
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.pixelomer.mobilegoose_1.3.3_iphoneos-arm64.deb
+Size: 599492
+MD5sum: c264d3f2f454e0604f8507adc680f89e
+SHA1: 6513ad301efb2b1b42dfc74618ea02feb28a3c11
+SHA256: 215819e0a9ec68912d42edf19ba4119a78aa5d3e4810d1294c5efbb08626e6b0
 Section: Tweaks
 Description: An annoying goose for your iDevice
 Author: pixelomer
