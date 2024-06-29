@@ -497,6 +497,38 @@ Description: The universal package list exporter
 Author: pixelomer
 Name: Obsidian
 
+Package: com.pixelomer.oneko
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: pixelomer
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/com.pixelomer.oneko_1.0.0_iphoneos-arm64.deb
+Size: 15076
+MD5sum: cef82c7ce64ffb19ff11cbca74ac36b5
+SHA1: 6242c6a4ee3068dd2c3beca960de787860c82624
+SHA256: 21d944e109e66a0cce0d44f94ba69433178219dbd838a3dab8e9951f8730218e
+Section: Tweaks
+Description: Oneko for iOS
+Author: pixelomer
+Name: Oneko
+
+Package: com.pixelomer.oneko
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/com.pixelomer.oneko_1.0.0_iphoneos-arm.deb
+Size: 14962
+MD5sum: 3fdf3e0212dc2adddffc8c70edd1232d
+SHA1: fd1cfe79258569da06eb4c29b40182f1041dfaf6
+SHA256: ee14df1abb1c92f80a46241f579d5f77ff0651070c28893c71838e840456deb8
+Section: Tweaks
+Description: Oneko for iOS
+Author: pixelomer
+Name: Oneko
+
 Package: com.pixelomer.regreddit
 Version: 1.0
 Architecture: iphoneos-arm
