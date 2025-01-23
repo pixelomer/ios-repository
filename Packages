@@ -480,6 +480,44 @@ Description: Among Us crewmates get ejected to your background
 Author: pixelomer
 Name: Not An Impostor
 
+Package: com.pixelomer.notanimpostor
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: pixelomer
+Installed-Size: 240
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0)
+Filename: debs/com.pixelomer.notanimpostor_1.2_iphoneos-arm64.deb
+Size: 52116
+MD5sum: 24fb266be3c64e72b3af903715177e9e
+SHA1: fe2e502d209a63249346b9186fbaa48e94afec63
+SHA256: 422806a0e408ac9eb4e74d781b5e7c346de9ca313e8ac02cc85d0dfe683c31be
+Section: Tweaks
+Description: Among Us crewmates get ejected to your background
+  See fellow crewmates from Among Us games who were falsely accused and ejected.
+  .
+  Requires iOS 6.0 or later.
+Author: pixelomer
+Name: Not An Impostor
+
+Package: com.pixelomer.notanimpostor
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 224
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0)
+Filename: debs/com.pixelomer.notanimpostor_1.2_iphoneos-arm.deb
+Size: 51526
+MD5sum: 12f9ceecc7df4ab53b7aa69c29092b0a
+SHA1: 421c645947de3586ba515de1a30a0bd69d0d08a9
+SHA256: 9d23bdff9802cf8398ce0a9698d4d4d780bfb42c16ac79eb1fdc2d9937cf679c
+Section: Tweaks
+Description: Among Us crewmates get ejected to your background
+  See fellow crewmates from Among Us games who were falsely accused and ejected.
+  .
+  Requires iOS 6.0 or later.
+Author: pixelomer
+Name: Not An Impostor
+
 Package: com.pixelomer.obsidian
 Version: 1.1
 Architecture: iphoneos-arm
@@ -499,22 +537,6 @@ Name: Obsidian
 
 Package: com.pixelomer.oneko
 Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: pixelomer
-Installed-Size: 172
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: debs/com.pixelomer.oneko_1.0.0_iphoneos-arm64.deb
-Size: 15076
-MD5sum: cef82c7ce64ffb19ff11cbca74ac36b5
-SHA1: 6242c6a4ee3068dd2c3beca960de787860c82624
-SHA256: 21d944e109e66a0cce0d44f94ba69433178219dbd838a3dab8e9951f8730218e
-Section: Tweaks
-Description: Oneko for iOS
-Author: pixelomer
-Name: Oneko
-
-Package: com.pixelomer.oneko
-Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: pixelomer
 Installed-Size: 172
@@ -524,6 +546,22 @@ Size: 14962
 MD5sum: 3fdf3e0212dc2adddffc8c70edd1232d
 SHA1: fd1cfe79258569da06eb4c29b40182f1041dfaf6
 SHA256: ee14df1abb1c92f80a46241f579d5f77ff0651070c28893c71838e840456deb8
+Section: Tweaks
+Description: Oneko for iOS
+Author: pixelomer
+Name: Oneko
+
+Package: com.pixelomer.oneko
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: pixelomer
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/com.pixelomer.oneko_1.0.0_iphoneos-arm64.deb
+Size: 15076
+MD5sum: cef82c7ce64ffb19ff11cbca74ac36b5
+SHA1: 6242c6a4ee3068dd2c3beca960de787860c82624
+SHA256: 21d944e109e66a0cce0d44f94ba69433178219dbd838a3dab8e9951f8730218e
 Section: Tweaks
 Description: Oneko for iOS
 Author: pixelomer
@@ -612,25 +650,6 @@ Name: TweakConfigurator
 
 Package: com.pixelomer.tweakreviews-db
 Version: 1.1.10
-Architecture: iphoneos-arm64
-Maintainer: pixelomer
-Installed-Size: 464
-Depends: mobilesubstrate, firmware (>=9.0)
-Conflicts: com.samgisaninja.tweakcompatible-zebra, bz.jed.tweakcompatible
-Filename: debs/com.pixelomer.tweakreviews-db_1.1.10_iphoneos-arm64.deb
-Size: 87676
-MD5sum: 7c0e8b49a235261e542f1cfa0a94900c
-SHA1: e6b5cc994a0ff2b960ddfdf129c602ca25dd7b87
-SHA256: 42537be3bcc49ce2cf273f97e766f97c72edf0f0dec25de565961a1c8c2a87d2
-Section: Tweaks
-Description: Tweak reviews made easy.
-  Easily read and create reviews about your tweaks with TweakReviewsDB.
-  Works with Sileo, Zebra, Cydia and Installer 5.
-Author: pixelomer
-Name: TweakReviewsDB
-
-Package: com.pixelomer.tweakreviews-db
-Version: 1.1.10
 Architecture: iphoneos-arm
 Maintainer: pixelomer
 Installed-Size: 640
@@ -641,6 +660,25 @@ Size: 141086
 MD5sum: d1b41529b34fc7e0df36c21e37bb9e31
 SHA1: 923667ec27a47e81e9fd61318224fe665d7005e6
 SHA256: df8a9370ff64c8f31aa7af168dfddc584775b0a2f0e6b52465ab0b20d602a97e
+Section: Tweaks
+Description: Tweak reviews made easy.
+  Easily read and create reviews about your tweaks with TweakReviewsDB.
+  Works with Sileo, Zebra, Cydia and Installer 5.
+Author: pixelomer
+Name: TweakReviewsDB
+
+Package: com.pixelomer.tweakreviews-db
+Version: 1.1.10
+Architecture: iphoneos-arm64
+Maintainer: pixelomer
+Installed-Size: 464
+Depends: mobilesubstrate, firmware (>=9.0)
+Conflicts: com.samgisaninja.tweakcompatible-zebra, bz.jed.tweakcompatible
+Filename: debs/com.pixelomer.tweakreviews-db_1.1.10_iphoneos-arm64.deb
+Size: 87676
+MD5sum: 7c0e8b49a235261e542f1cfa0a94900c
+SHA1: e6b5cc994a0ff2b960ddfdf129c602ca25dd7b87
+SHA256: 42537be3bcc49ce2cf273f97e766f97c72edf0f0dec25de565961a1c8c2a87d2
 Section: Tweaks
 Description: Tweak reviews made easy.
   Easily read and create reviews about your tweaks with TweakReviewsDB.
