@@ -3,7 +3,7 @@
 set -e
 
 md5() {
-  command md5 -q "${@}"
+  command md5sum "${@}" | awk '{ print $1 }'
 }
 
 sha256() {
