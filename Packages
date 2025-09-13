@@ -482,15 +482,15 @@ Name: Not An Impostor
 
 Package: com.pixelomer.notanimpostor
 Version: 1.2
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: pixelomer
-Installed-Size: 240
+Installed-Size: 224
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0)
-Filename: debs/com.pixelomer.notanimpostor_1.2_iphoneos-arm64.deb
-Size: 52116
-MD5sum: 24fb266be3c64e72b3af903715177e9e
-SHA1: fe2e502d209a63249346b9186fbaa48e94afec63
-SHA256: 422806a0e408ac9eb4e74d781b5e7c346de9ca313e8ac02cc85d0dfe683c31be
+Filename: debs/com.pixelomer.notanimpostor_1.2_iphoneos-arm.deb
+Size: 51526
+MD5sum: 12f9ceecc7df4ab53b7aa69c29092b0a
+SHA1: 421c645947de3586ba515de1a30a0bd69d0d08a9
+SHA256: 9d23bdff9802cf8398ce0a9698d4d4d780bfb42c16ac79eb1fdc2d9937cf679c
 Section: Tweaks
 Description: Among Us crewmates get ejected to your background
   See fellow crewmates from Among Us games who were falsely accused and ejected.
@@ -501,15 +501,15 @@ Name: Not An Impostor
 
 Package: com.pixelomer.notanimpostor
 Version: 1.2
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: pixelomer
-Installed-Size: 224
+Installed-Size: 240
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0)
-Filename: debs/com.pixelomer.notanimpostor_1.2_iphoneos-arm.deb
-Size: 51526
-MD5sum: 12f9ceecc7df4ab53b7aa69c29092b0a
-SHA1: 421c645947de3586ba515de1a30a0bd69d0d08a9
-SHA256: 9d23bdff9802cf8398ce0a9698d4d4d780bfb42c16ac79eb1fdc2d9937cf679c
+Filename: debs/com.pixelomer.notanimpostor_1.2_iphoneos-arm64.deb
+Size: 52116
+MD5sum: 24fb266be3c64e72b3af903715177e9e
+SHA1: fe2e502d209a63249346b9186fbaa48e94afec63
+SHA256: 422806a0e408ac9eb4e74d781b5e7c346de9ca313e8ac02cc85d0dfe683c31be
 Section: Tweaks
 Description: Among Us crewmates get ejected to your background
   See fellow crewmates from Among Us games who were falsely accused and ejected.
@@ -589,6 +589,38 @@ Description: Reddit Comment Deleter
   This tweak will work on any iOS version higher than iOS 7.0. However, the Reddit app (2020.34.0) itself requires at iOS 12.0 or higher.
 Author: pixelomer
 Name: Regreddit
+
+Package: com.pixelomer.shijima-ios-keygen
+Version: 1.3.2
+Architecture: iphoneos-arm64
+Maintainer: pixelomer
+Installed-Size: 76
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.pixelomer.shijima-ios-keygen_1.3.2_iphoneos-arm64.deb
+Size: 7206
+MD5sum: e396d408954934f4364c04971d495d76
+SHA1: 66a2310b829c037b9b98ca38d25f81ef95ab9b70
+SHA256: f19dbaf47413c6023c6ac70b5d98aa5df433d1212026caf43b39bf56d8071cfe
+Section: Tweaks
+Description: Bypass DRM on paid versions of Shijima-iOS
+Author: pixelomer
+Name: Shijima-iOS Keygen
+
+Package: com.pixelomer.shijima-ios-keygen
+Version: 1.3.2
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Installed-Size: 76
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.pixelomer.shijima-ios-keygen_1.3.2_iphoneos-arm.deb
+Size: 7118
+MD5sum: 89b826cb7735cca11c6aacb720ce2b4c
+SHA1: a2f4ec232b40e5e5f8b6012fb0459546462c9579
+SHA256: 5b3d526a454b777f2e847be75b4eb4b4522548b9cfc99bdfd25da07875a9cc91
+Section: Tweaks
+Description: Bypass DRM on paid versions of Shijima-iOS
+Author: pixelomer
+Name: Shijima-iOS Keygen
 
 Package: com.pixelomer.shreddit
 Version: 1.0.1
